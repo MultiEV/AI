@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+output/
+logs/
+*.log
+models/llm/qwen3-4b-instruct/

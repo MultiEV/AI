@@ -1,0 +1,18 @@
+{
+  "model_version": "v3_single_site",
+  "site_name_for_training": "당진자재창고태양광",
+  "station_id_for_training": 129,
+  "capacity_kw_for_training": 700.0,
+  "target": "target_norm_kwh_per_kw",
+  "slot_definition": "slot 0 = 00:00~01:00, slot 23 = 23:00~24:00",
+  "operation_time_assumption": "daily 22:10 KST",
+  "today_pv_available_until": "D 21:00~22:00",
+  "lag24_fallback_rule": "for slot 22 and 23, use D-1 same slot because D same slot is not yet available at 22:10",
+  "removed_features": [
+    "site_id",
+    "lat",
+    "lon",
+    "capacity_kw",
+    "pv_name"
+  ]
+}

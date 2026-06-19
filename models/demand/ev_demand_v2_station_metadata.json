@@ -1,0 +1,50 @@
+{
+  "target_charger_count": 5,
+  "target_meaning": "hourly charging energy demand in kWh, scaled to 5 chargers per station",
+  "station_names": [
+    "LH강남힐스테이트",
+    "LH서울지사",
+    "강남구청 공영주차장",
+    "강남한양수자인",
+    "도곡렉슬 아파트"
+  ],
+  "station_columns": [
+    "station_LH강남힐스테이트",
+    "station_LH서울지사",
+    "station_강남구청_공영주차장",
+    "station_강남한양수자인",
+    "station_도곡렉슬_아파트"
+  ],
+  "stations": [
+    {
+      "station_name": "LH강남힐스테이트",
+      "address": "서울특별시 강남구 자곡동 자곡로3길 21",
+      "charger_capacity_kw": 10.1736882512942,
+      "target_charger_count": 5
+    },
+    {
+      "station_name": "LH서울지사",
+      "address": "서울특별시 강남구 선릉로 121길 12",
+      "charger_capacity_kw": 50.0,
+      "target_charger_count": 5
+    },
+    {
+      "station_name": "강남구청 공영주차장",
+      "address": "서울특별시 강남구 삼성동 16-1",
+      "charger_capacity_kw": 50.0,
+      "target_charger_count": 5
+    },
+    {
+      "station_name": "강남한양수자인",
+      "address": "서울특별시 강남구 자곡동 자곡로 260",
+      "charger_capacity_kw": 8.28159785011051,
+      "target_charger_count": 5
+    },
+    {
+      "station_name": "도곡렉슬 아파트",
+      "address": "서울특별시 강남구 도곡동 선릉로 221",
+      "charger_capacity_kw": 15.45768138548916,
+      "target_charger_count": 5
+    }
+  ]
+}

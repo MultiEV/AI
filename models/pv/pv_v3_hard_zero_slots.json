@@ -1,0 +1,16 @@
+{
+  "site_name": "당진자재창고태양광",
+  "rule": "If a slot has nonzero_count == 0 in the real training data, force predicted PV to 0 in post-processing.",
+  "hard_zero_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    20,
+    21,
+    22,
+    23
+  ],
+  "slot_definition": "slot 0 = 00:00~01:00, slot 23 = 23:00~24:00"
+}

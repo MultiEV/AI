@@ -1,0 +1,12 @@
+pandas
+numpy
+lightgbm
+holidays
+torch
+stable-baselines3
+gymnasium
+transformers
+fastapi
+uvicorn
+httpx
+pydantic
